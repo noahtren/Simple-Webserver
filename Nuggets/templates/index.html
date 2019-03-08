@@ -1,0 +1,26 @@
+<!doctype html>
+<head>
+  <title>Are There Nuggets at CenterCourt?</title>
+  <meta charset=utf-8>
+  <style type="text/css">
+  @font-face {
+      font-family: "Baskerville";
+      src: url("{{ url_for('static', filename='LibreBaskerville-Regular.ttf') }}") format("truetype");
+  }
+  @font-face {
+    font-family: "Frutiger";
+    src: url("{{ url_for('static', filename='Frutiger.ttf') }}") format("truetype");
+  }</style>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="shortcut icon" type="text/css" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<h1>Are There Nuggets at CenterCourt?</h1>
+<hr>
+<body>
+  <p>{{ nug_msg }}</p>
+  <p>{{ frch_toast_msg }}</p>
+</body>
+<hr>
+<p class=footer>
+  &copy; Copyright 2019 - {{ current_year }} by <a href="https://i.imgur.com/I6e2onM.jpg">a proud Bearcat</a>
+</p>

@@ -1,0 +1,49 @@
+h1 {
+    font-family: Baskerville;
+    font-size:32px;
+    margin:0px;
+    padding:0px;
+}
+hr {
+    border-top: dotted 1px;
+    color:lightgray;
+}
+p {
+    font-family: Frutiger;
+    font-size:16px;
+    margin:0px;
+    padding:0px;
+}
+
+
+/* LINK STUFF */
+a {
+    font-family: Frutiger;
+    padding:2px;
+    border-radius: 3px 3px 3px 3px;
+}
+a:link {
+    color: rgb(0, 132, 184);
+}
+  /* visited link */
+  a:visited {
+    color: rgb(0, 132, 184);
+}
+  /* mouse over link */
+  a:hover {
+    color: rgb(0, 132, 184);
+    background-color:rgba(0, 132, 184, 0.100)
+} 
+  /* selected link */
+  a:active {
+    color: rgb(0, 132, 184);
+}
+/* Mobile */
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 64px;
+    }
+    p {
+        font-size:32px;
+    }
+}
